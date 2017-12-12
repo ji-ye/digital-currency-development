@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Crypto growth</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header clearfix">
+    <nav class="navbar fixed-bottom navbar-expand bg-faded">
+      <a href="https://github.com/ji-ye">
+        <img class="navbar-logo" src="./static/lightroom_ji_square.jpg">
+        <p>Github</p>
+      </a>
+    </nav>
+  </header>
+  <div class="container" id="container-1">
+    <div class="col-md-12">
+      <h1>Digital Currency Development</h1>
+        <p>
+          This year, the total market capitalization of cryptocurrencies has
+          increased over twenty times since the start of year. Bitcoin
+          and other cryptocurrencies have grown to become an acknowledged part
+          of the financial system, albeit a new one.
+        </p>
+      <hr />
+        <p>
+          <h6>
+          What factors have contributed to the explosive growth of cryptocurrencies
+          in 2017?
+        </h6>
+        The short answers is nobody knows exactly. Part of the growth
+        in cryptocurrencies value is event driven, while part of it can be explained
+        by valuation formula of network effect. This project aims to visually
+        present these theories.
+       </p>
+      <div>
+        <svg width="900" height="500" id="svg1"></svg>
+        <label id="form" for="show-voronoi" class="col-md-4">
+          Show Voronoi
+          <input type="checkbox" id="show-voronoi" disabled>
+        </label>
+      </div>
+      <div>
+          <h5>Market Capitalization</h5>
+          <p>
+            Market Capitalization is a measure of cryptocurrency value. It is
+            calculated by multiplying the volume of a cryptocurrency and current
+            market price.
+          </p>
+      </div>
+    </br>
+    <hr />
+    </br>
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Metcalfe's Law</h2>
+          <p>
+            Metcalfe's law states that the value of a telecommunication network
+    				is proportional to the square of the number of connected users in the system.
+    				Based on that, Tommy Lee, a financial advisor suggested a simple model valuing bitcoin as the
+    				square function number of unique Bitcoin addresses times the average transaction value.
+    			</p>
+
+          <p>
+            This model worked really well at the time, but has derailed from reality right after.
+            Currently, It is capable of explaining 81.3% of all historical growth.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img src="./static/metcalfe_model_r_square.jpg" width="350">
+          <br/><br/>
+        </div>
+      </div>
+      <div>
+
+      </div>
+      <div>
+        <svg width="900" height="500" id="svg2"></svg>
+      </div>
+    </br>
+    <hr />
+    </br>
+      <div class="row">
+        <div class="col-md-8">
+          <h2>The rest of the growth is event-driven</h2>
+          <p>
+            Events in goverment regulation, technology, and Institution money
+             accumulates the confidence for Bitcoin's growth.
+    			</p>
+          <div>
+            <h4>Technology</h4>
+            <h6>03/09/14</h6>
+            <p>
+              Mt. Gox, largest digital currency at the time, went bankrupt after losing $65 Million user's Bitcoins.
+            </p>
+          </div>
+          <div>
+            <h4>Macroeconomic Trend</h4>
+            <h6>11/08/17</h6>
+            <p>
+              India Goverment annouced ban of small bank notes.
+            </p>
+          </div>
+          <div>
+            <h4>Technology</h4>
+            <h6>03/08/17</h6>
+            <p>
+              Bitcoin projects on Github surpass 10000.
+            </p>
+
+          </div>
+        </br>
+        </br>
+      </br>
+      </br>
+          <div>
+            <h4>Government Regulation</h4>
+            <h6>04/03/17</h6>
+            <p>
+              Japan passed a law recognizing bitcoin as legal tender, showing support for digital currency.
+            </p>
+          </div>
+        </br>
+      </br>
+      </br>
+      </br>
+          <div>
+            <h6>05/02/17</h6>
+            <p>
+              Russian government confirmed that a draft bill would legalize the use of cryptocurrencies.
+            </p>
+          </div>
+        </br>
+        </br>
+        </br>
+        </br>
+          <div>
+            <h6>09/04/17</h6>
+            <p>
+              The People's Bank of China issued a ban on initial coin offerings (ICO).
+              ICO is how a new cryptocurrencies raises fund, comparable to IPO when a private company is offered to public.
+              A sharpe decline in Bitcoin price followed subsequently.
+            </p>
+          </div>
+          </br>
+          </br>
+
+          </br>
+          </br>
+          <div>
+            <h4>Institution Money</h4>
+            <h6>10/30/17</h6>
+            <p>
+              CME annouced launch of futures for digital currency.
+              Bitcoin market cap and price have surged to record high.
+            </p>
+            <img src="./static/bitcoin_futures.jpg" width="250">
+          </div>
+
+        </div>
+        <div class="col-md-4" id="svg3">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</br>
+  <div class="container jumbotron">
+    <div>
+      <h6>Sources:</h6>
+      <p>Historical cryptocurrency market capitalization data from <a href="https://coinmarketcap.com/historical/">coinmarketcap.com</a></p>
+      <p>Tommy Lee's modified Metcalfe's law equation from a <a href="http://www.businessinsider.com/bitcoin-price-movement-explained-by-one-equation-fundstrat-tom-lee-metcalf-law-network-effect-2017-10">Business Insider</a> article</p>
+      </br>
+      <h6>Code references:</h6>
+        <a href="http://blockbuilder.org/mbostock/8033015">Voronoi tooltip</a>
+      </br>
+        <a href="http://blockbuilder.org/tomshanley/e88c1ad0d6baa2fb8f6f074f3e85651f">Small multiple</a>
+      </br>
+        <a href="https://github.com/mdvandergon/monetary-policy">Layout and Javascript examples</a>
+    </div>
+  </div>
+  <script src="./line_voronoi.js"></script>
+  <script src="./metcalfe.js"></script>
+  <script src="./event_multiple.js"></script>
+
+</body>
+</html>

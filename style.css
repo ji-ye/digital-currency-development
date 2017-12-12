@@ -1,0 +1,102 @@
+
+@font-face {
+  font-family: 'Noto Sans Light';
+  src: url('./static/fonts/NotoSans-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Noto Sans Bold';
+  src: url('./static/fonts/NotoSans-SemiBold.ttf');
+}
+
+body {
+  margin: 0px auto;
+  padding-top: 3.5rem;
+  font-family: "Noto Sans Light", 'Arial', monospace;
+  background-color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Noto Sans Bold", 'Arial Bold', monospace;
+  margin-bottom: 1rem;
+}
+
+text {
+  fill: #444444;
+  font-family: "Noto Sans Light", 'Menlo', monospace;
+  shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #666666;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-size: 12px;
+  shape-rendering: crispEdges;
+}
+
+.legend {
+  font-size: 1.1rem;
+}
+
+.d3-tip {
+  transition: 1s;
+}
+
+.cities {
+  fill: none;
+  stroke: #aaa;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.5px;
+}
+
+.city--hover {
+  stroke: #000;
+}
+
+.focus text {
+  text-anchor: end;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.voronoi path {
+  fill: none;
+  pointer-events: all;
+}
+
+.voronoi--show path {
+  stroke: red;
+  stroke-opacity: 0.2;
+}
+
+#form {
+  position: relative;
+  top: 0px;
+  right: -720px;
+}
+
+
+.line {
+  fill: none;
+  stroke: #426789;
+  stroke-width: 1.5px;
+  }
+
+.area {
+  fill: #e8eef4;
+}
+
+g#xAxisG text, g#yAxisG text {
+	stroke: none;
+	fill: #666666;
+	font-size: 9px;
+}
+
+header, div#source {
+	margin-left: 40px;
+	margin-bottom: 38px;
+}
